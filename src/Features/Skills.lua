@@ -6,7 +6,7 @@
 local Skills = {}
 
 --- @class Skills
---- HI PEOPLES ITS ME ETHAN
+--- Creates a new Skills class
 function Skills.new(MapLib)
 	local self = setmetatable({}, Skills)
 	self.map = MapLib.map
@@ -14,7 +14,7 @@ function Skills.new(MapLib)
 	return Skills
 end
 
---- Description
+--- Sets sliding to true or false
 function Skills:AllowSliding(enabled: boolean): nil
 	local skills = self.map:FindFirstChild("Settings") and self.map.Settings:FindFirstChild("Skills")
 	if skills then
