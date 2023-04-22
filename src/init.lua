@@ -27,7 +27,7 @@ else
 end
 
 --- @class MapLib
---- Description goes here
+--- Test
 
 --- @prop map Model
 --- @readonly

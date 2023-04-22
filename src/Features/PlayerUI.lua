@@ -13,7 +13,7 @@ local PlayerUI = { context = "client" }
 PlayerUI.__index = PlayerUI
 
 --- @class PlayerUI
---- Description goes here
+--- Test
 --- @client
 
 --- @prop cleanup {ScreenGUI}
