@@ -18,7 +18,6 @@ PlayerUI.__index = PlayerUI
 --- @client
 
 --- @prop cleanup {ScreenGUI}
---- @readonly
 --- @private
 --- @within PlayerUI
 
