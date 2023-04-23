@@ -56,9 +56,16 @@ end
 
 		PlayerUI:LoadUI(ScreenGUI) -- Call the function to load the GUI
 	```
-		:::tip
-		Hi
-		:::
+	
+	:::
+
+	:::tip
+	Hi
+	:::
+
+	:::caution
+	rocky is gay
+	:::
 
 ]=]
 
