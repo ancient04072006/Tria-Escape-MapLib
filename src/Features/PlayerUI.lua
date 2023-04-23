@@ -8,7 +8,10 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local PlayerStates = require(ReplicatedStorage.shared.PlayerStates)
 
+--- Hi
+
 --< Main >--
+--- hi
 local PlayerUI = { context = "client" }
 PlayerUI.__index = PlayerUI
 
@@ -48,7 +51,6 @@ end
 		local ScreenGUI = Path.To.ScreenGUI
 
 		PlayerUI:LoadUI(ScreenGUI) -- Call the function to load the GUI
-	```
 ]=]
 
 function PlayerUI:LoadUI(gui: ScreenGui): ScreenGui
