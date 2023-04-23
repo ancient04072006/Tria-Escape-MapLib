@@ -21,6 +21,14 @@ PlayerUI.__index = PlayerUI
 --- @readonly
 --- @private
 --- @within PlayerUI
+
+--[=[ 
+	Creates a new PlayerUI class for loading ScreenGUIS! This can be used for creating cutscenes, ending screens, etc.
+
+		Example:
+
+]=]
+
 function PlayerUI.new()
 	local self = setmetatable({}, PlayerUI)
 
