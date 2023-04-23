@@ -16,6 +16,7 @@ local Settings = {context = "client"}
 Settings.__index = Settings
 
 --- @class Settings
+--- @client
 
 --[=[
 	Hi
@@ -30,8 +31,6 @@ Settings.__index = Settings
 	hi
 	:::
 ]=]
-
---- @client
 function Settings.new()
 	local self = setmetatable({}, Settings)
 
