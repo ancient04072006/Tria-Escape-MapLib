@@ -23,8 +23,8 @@ end
 		Skills:AllowSliding(true) -- Enables Sliding when called
 	```
 
-	:::tip
-	something about wacky sliding gameplay
+	:::info
+	
 	:::
 
 ]=]
