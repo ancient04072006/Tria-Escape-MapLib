@@ -24,11 +24,16 @@ PlayerUI.__index = PlayerUI
 --[=[ 
 	Creates a new PlayerUI class for loading ScreenGUIS! This can be used for creating cutscenes, ending screens, etc.
 
-	Example:
+		Example:
 
 	```lua
 		local PlayerUI = PlayerUI.new() -- Initalizes PlayerUI Class
 	```
+
+	:::info
+	im so gay
+	:::
+
 ]=]
 
 function PlayerUI.new()
