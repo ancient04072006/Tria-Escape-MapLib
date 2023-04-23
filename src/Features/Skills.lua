@@ -6,7 +6,22 @@
 local Skills = {}
 
 --- @class Skills
---- Creates a new Skills class
+
+--[=[
+	Initalizes a new Skills class within the map.
+
+		Example:
+	
+	```lua
+		local Skills = Skills.new(MapLib) -- Initalize Skills Class
+	```
+
+	:::tip
+	please kill me
+	:::
+
+]=]
+
 function Skills.new(MapLib)
 	local self = setmetatable({}, Skills)
 	self.map = MapLib.map
@@ -14,7 +29,21 @@ function Skills.new(MapLib)
 	return Skills
 end
 
---- Sets sliding to true or false
+--[=[
+	Toggles whether Sliding should be enabled or disabled at a certain point in your map.
+
+		Example:
+	
+	```lua
+		Skills:AllowSliding(true) -- Enables Sliding when called
+	```
+
+	:::tip
+	something about wacky sliding gameplay
+	:::
+
+]=]
+
 function Skills:AllowSliding(enabled: boolean): nil
 	local skills = self.map:FindFirstChild("Settings") and self.map.Settings:FindFirstChild("Skills")
 	if skills then
