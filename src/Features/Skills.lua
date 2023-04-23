@@ -6,6 +6,7 @@
 local Skills = {}
 
 --- @class Skills
+--- GOOF
 
 function Skills.new(MapLib)
 	local self = setmetatable({}, Skills)
