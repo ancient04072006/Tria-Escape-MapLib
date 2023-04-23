@@ -26,6 +26,9 @@ PlayerUI.__index = PlayerUI
 
 		Example:
 
+		```lua
+			local PlayerUI = PlayerUI.new() -- Initalizes PlayerUI Class
+		```
 
 ]=]
 
@@ -58,7 +61,7 @@ end
 	```
 
 	:::tip
-	You can rename ScreenGUI to anything else as long as its a ScreenGUI object. Might help you out with keep track of objects within your map.
+	You can rename ScreenGUI to anything else as long as its a ScreenGUI object. Might help you out with keeping track of objects within your map.
 	:::
 
 ]=]
