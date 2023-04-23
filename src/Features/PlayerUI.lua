@@ -48,6 +48,7 @@ end
 		PlayerUI:LoadUI(ScreenGUI)
 		```
 
+
 function PlayerUI:LoadUI(gui: ScreenGui): ScreenGui
 	assert(gui:IsA("ScreenGui"), "':LoadUI' must be passed a 'ScreenGUI'")
 
