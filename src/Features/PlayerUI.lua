@@ -24,7 +24,7 @@ PlayerUI.__index = PlayerUI
 --[=[ 
 	Creates a new PlayerUI class for loading ScreenGUIS! This can be used for creating cutscenes, ending screens, etc.
 
-		Example:
+	Example:
 
 	```lua
 		local PlayerUI = PlayerUI.new() -- Initalizes PlayerUI Class
@@ -51,7 +51,7 @@ end
 --[=[
 	Loads a ScreenGUI object into the Players PlayerGui. The ScreenGUI object has to be defined in the script somewhere in order to access it in this function. It can have Frames, TextLabels, etc in it as long as the parent is a ScreenGUI. 
 
-	Example:
+		Example:
 	
 	```lua
 		local ScreenGUI = Path.To.ScreenGUI
