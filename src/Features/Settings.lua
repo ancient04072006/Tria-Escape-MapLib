@@ -16,28 +16,26 @@ local Settings = {context = "client"}
 Settings.__index = Settings
 
 --- @class Settings
+--- Details
 --- @client
 
---[=[
-	Hi
+--- Initialize Settings Class
 
-		Example:
-
-	```lua
-		gay code
-	```
-
-	:::info
-	hi
-	:::
-]=]
 function Settings.new()
 	local self = setmetatable({}, Settings)
 
 	return self
 end
 
---- Description
+--[=[
+	stuff
+
+	Example:
+
+	:::info
+	HI
+	:::
+]=]
 function Settings:GetSetting(settingName: string): any
 	local settingsTable = SettingsModule:GetSettings()
 
