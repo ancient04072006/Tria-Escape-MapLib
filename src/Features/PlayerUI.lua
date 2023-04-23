@@ -57,7 +57,9 @@ end
 		PlayerUI:LoadUI(ScreenGUI) -- Call the function to load the GUI
 
 		:::tip
-			You can name the ScreenGUI to anything you want, as long as its a ScreenGUI. Might help you keep track of objects in your map.
+
+		You can name the ScreenGUI to anything you want, as long as its a ScreenGUI. Might help you keep track of objects in your map.
+		
 		:::
 ]=]
 
