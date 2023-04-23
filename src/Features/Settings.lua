@@ -16,7 +16,21 @@ local Settings = {context = "client"}
 Settings.__index = Settings
 
 --- @class Settings
---- Description goes here
+
+--[=[
+	Hi
+
+		Example:
+
+	```lua
+		gay code
+	```
+
+	:::info
+	hi
+	:::
+]=]
+
 --- @client
 function Settings.new()
 	local self = setmetatable({}, Settings)
