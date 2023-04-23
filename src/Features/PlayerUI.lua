@@ -60,9 +60,8 @@ end
 	```
 
 	:::info
-	You call the ```lua
-						:LoadUI()
-					``` function in the LocalMapScript.
+	You call the :LoadUI() function in the LocalMapScript.
+	Do not worry about having to use :Destroy() on the GUI either, TRIA automatically destroys it when the map is finished.
 	:::
 
 ]=]
