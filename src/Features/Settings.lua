@@ -30,7 +30,7 @@ end
 --[=[
 	stuff
 
-	Example:
+		Example:
 
 	:::info
 	HI
