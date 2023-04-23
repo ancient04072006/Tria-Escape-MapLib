@@ -12,25 +12,13 @@ local PlayerStates = require(ReplicatedStorage.shared.PlayerStates)
 --< Main >--
 local PlayerUI = { context = "client" }
 PlayerUI.__index = PlayerUI
-
---- The PlayerUI Class.
-
 --- @class PlayerUI
-
 --- @client
 
 --- @prop cleanup {ScreenGUI}
 --- @readonly
 --- @private
 --- @within PlayerUI
-
---[=[ 
-	Creates a new PlayerUI class for loading ScreenGUIS! This can be used for creating cutscenes, ending screens, etc.
-
-		Example:
-
-]=]
-
 function PlayerUI.new()
 	local self = setmetatable({}, PlayerUI)
 
