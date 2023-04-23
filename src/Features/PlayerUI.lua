@@ -56,15 +56,9 @@ end
 
 		PlayerUI:LoadUI(ScreenGUI) -- Call the function to load the GUI
 	```
-	
-	:::
 
 	:::tip
-	Hi
-	:::
-
-	:::caution
-	rocky is gay
+	You can rename ScreenGUI to anything else as long as its a ScreenGUI object. Might help you out with keep track of objects within your map.
 	:::
 
 ]=]
