@@ -47,7 +47,7 @@ end
 		local ScreenGUI = Path.To.ScreenGUI
 		
 		PlayerUI:LoadUI(ScreenGUI)
-	```
+		```
 ]=]
 
 function PlayerUI:LoadUI(gui: ScreenGui): ScreenGui
