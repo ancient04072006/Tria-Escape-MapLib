@@ -6,22 +6,6 @@
 local Skills = {}
 
 --- @class Skills
---- Desc
-
---[=[
-	Initalizes a new Skills class within the map.
-
-		Example:
-	
-	```lua
-		local Skills = Skills.new(MapLib) -- Initalize Skills Class
-	```
-
-	:::tip
-	please kill me
-	:::
-
-]=]
 
 function Skills.new(MapLib)
 	local self = setmetatable({}, Skills)
