@@ -50,7 +50,7 @@ end
 	```
 
 	:::info
-	You call the :LoadUI() function in the LocalMapScript as it is a client object.
+	You call the :LoadUI() function in the LocalMapScript as UI's run on the client.
 	:::
 
 ]=]
