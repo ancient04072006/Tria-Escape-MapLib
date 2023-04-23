@@ -22,7 +22,7 @@ PlayerUI.__index = PlayerUI
 --- @within PlayerUI
 
 --[=[ 
-	Creates a new PlayerUI class for loading ScreenGUIS! This can be used for creating cutscenes, ending screens, etc.
+	Creates a new PlayerUI class for loading ScreenGUI's! This can be used for creating cutscenes, ending screens, etc.
 
 		Example:
 
@@ -65,8 +65,7 @@ end
 	```
 
 	:::info
-	You call the :LoadUI() function in the LocalMapScript.
-	Do not worry about having to use :Destroy() on the GUI either, TRIA automatically destroys it when the map is finished.
+	You call the :LoadUI() function in the LocalMapScript as it is a client object.
 	:::
 
 ]=]
