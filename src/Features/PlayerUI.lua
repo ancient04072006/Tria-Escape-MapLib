@@ -55,7 +55,7 @@ end
 		local ScreenGUI = Path.To.ScreenGUI
 
 		PlayerUI:LoadUI(ScreenGUI) -- Call the function to load the GUI
-
+	```
 		:::tip
 		Hi
 		:::
