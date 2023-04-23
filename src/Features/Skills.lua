@@ -6,6 +6,7 @@
 local Skills = {}
 
 --- @class Skills
+--- Desc
 
 --[=[
 	Initalizes a new Skills class within the map.
