@@ -13,6 +13,8 @@ local PlayerStates = require(ReplicatedStorage.shared.PlayerStates)
 local PlayerUI = { context = "client" }
 PlayerUI.__index = PlayerUI
 
+--- hi
+
 --- @class PlayerUI
 --- @client
 
