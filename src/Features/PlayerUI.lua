@@ -14,15 +14,6 @@ local PlayerUI = { context = "client" }
 PlayerUI.__index = PlayerUI
 
 --- @class PlayerUI
-
---[=[ 
-	Creates a new PlayerUI class for loading ScreenGUIS! This can be used for creating cutscenes, ending screens, etc.
-
-		Example:
-
-
-]=]
-
 --- @client
 
 --- @prop cleanup {ScreenGUI}
