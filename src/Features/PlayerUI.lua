@@ -51,7 +51,7 @@ end
 --[=[
 	Loads a ScreenGUI object into the Players PlayerGui. The ScreenGUI object has to be defined in the script somewhere in order to access it in this function. It can have Frames, TextLabels, etc in it as long as the parent is a ScreenGUI. 
 
-		Example:
+	Example:
 	
 	```lua
 		local ScreenGUI = Path.To.ScreenGUI
@@ -59,7 +59,7 @@ end
 		PlayerUI:LoadUI(ScreenGUI) -- Call the function to load the GUI
 	```
 
-	:::tip
+	:::info
 	You can rename ScreenGUI to anything else as long as its a ScreenGUI object. Might help you out with keeping track of objects within your map.
 	:::
 

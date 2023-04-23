@@ -6,7 +6,6 @@
 local Skills = {}
 
 --- @class Skills
---- Not sure what to write about, I'll probably let Radical do it
 
 function Skills.new(MapLib)
 	local self = setmetatable({}, Skills)
