@@ -60,7 +60,9 @@ end
 	```
 
 	:::info
-	You can rename ScreenGUI to anything else as long as its a ScreenGUI object. Might help you out with keeping track of objects within your map.
+	You call the ```lua
+						:LoadUI()
+					``` function in the LocalMapScript.
 	:::
 
 ]=]
