@@ -30,7 +30,7 @@ end
 --[=[
 	stuff
 
-		Example:
+			Example:
 
 		```lua
 			MapLib:GetFeature("Settings"):GetSetting("String")
