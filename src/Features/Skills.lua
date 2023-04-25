@@ -20,7 +20,7 @@ end
 		Example:
 	
 	```lua
-		Skills:AllowSliding(true) -- Enables Sliding when called
+		MapLib:GetFeature("Skills"):AllowSliding(true) -- Enables Sliding when called
 	```
 
 	:::info

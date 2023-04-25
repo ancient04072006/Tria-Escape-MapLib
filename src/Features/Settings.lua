@@ -32,6 +32,10 @@ end
 
 		Example:
 
+		```lua
+			MapLib:GetFeature("Settings"):GetSetting("String")
+		```
+
 	:::info
 	HI
 	:::
